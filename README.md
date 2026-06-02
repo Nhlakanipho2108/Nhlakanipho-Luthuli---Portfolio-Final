@@ -149,7 +149,7 @@ I am passionate about technology, software development, and continuous learning.
 ## Links
 
 **GitHub Repository**
-[Insert GitHub Repository Link]
+https://github.com/Nhlakanipho2108/Nhlakanipho-Luthuli---Portfolio-Final.git
 
 **Live Website**
 https://nhlakanipholuthuliportfolio21.netlify.app/
