@@ -11,10 +11,17 @@ FILE: css/style.css
 }
 
 body{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
   font-family:'Poppins', sans-serif;
   background:#0b0b0b;
   color:white;
   line-height:1.6;
+}
+
+main{
+  flex:1;
 }
 
 /* HEADER */
@@ -260,6 +267,7 @@ tbody tr{
 /* PAGE CONTENT */
 .page-content{
   padding:80px 10%;
+  padding-bottom:120px;
 }
 
 .content-box{
@@ -359,7 +367,7 @@ textarea:focus{
   text-align:center;
   padding:25px;
   border-top:1px solid #222;
-  margin-top:60px;
+  margin-top:auto;
   color:#aaa;
 }
 
