@@ -287,7 +287,7 @@ tbody tr{
 /* PROJECTS */
 .projects-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  grid-template-columns:repeat(3,minmax(0,1fr));
   gap:30px;
 }
 
@@ -374,6 +374,10 @@ textarea:focus{
 /* RESPONSIVE */
 @media(max-width:900px){
 
+  .projects-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
   .hero{
     flex-direction:column-reverse;
     text-align:center;
@@ -408,6 +412,10 @@ textarea:focus{
 }
 
 @media(max-width:600px){
+
+  .projects-grid{
+    grid-template-columns:1fr;
+  }
 
   .header{
     flex-direction:column;
