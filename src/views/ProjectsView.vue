@@ -8,6 +8,9 @@ const projects = [
   { image: '/images/calculator.PNG', alt: 'Calculator App', title: 'Calculator App', description: 'Responsive weather application using APIs and JavaScript.', url: 'https://calculator2109.netlify.app/', action: 'Live Demo' },
   { image: '/images/EcoAware.jpg', alt: 'Eco Aware Website', title: 'Eco Aware Website', description: 'Recycling website with educational content and interactive features.', url: 'https://dainty-banoffee-54d086.netlify.app/', action: 'Live Demo' },
   { image: '/images/modelhub.jpg', alt: 'S.A Model Hub', title: 'S.A Model Hub', description: 'Productivity application with clean UI and responsive design.', url: 'https://neon-tiramisu-e71795.netlify.app/', action: 'Live Demo' },
+  { image: '/images/safe her.jpg', alt: 'Safe Her Website', title: 'Safe Her Website', description: 'Productivity application with clean UI and responsive design.', url: 'https://safeher-e-commerce.onrender.com/', action: 'Live Demo' },
+  { image: '/images/moderntech.jpg', alt: 'Modern Tech Website', title: 'Modern Tech Website', description: 'Productivity application with clean UI and responsive design.', url: 'https://khanyamfunda.github.io/Hr-Project-final-repo/', action: 'Live Demo' },
+  { image: '/images/webscrapping.jpg', alt: 'Web Scrapping Project', title: 'Web Scrapping Project', description: 'Productivity application with clean UI and responsive design.', url: 'https://team-alpha-1.onrender.com/', action: 'Live Demo' },
 ]
 </script>
 
