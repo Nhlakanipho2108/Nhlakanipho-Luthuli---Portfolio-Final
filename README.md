@@ -52,6 +52,8 @@ Nhlakanipho-Luthuli---Portfolio-Final/
 |  |- App.vue                 # Global header, navigation, footer, RouterView
 |  |- components/
 |  |  |- CardGrid.vue         # Reusable card rendering component
+|  |  |- PortfolioAssistant.vue # Portfolio chatbot UI
+|  |- data/portfolio.js       # Factual profile and project information
 |  |- views/
 |     |- HomeView.vue
 |     |- AboutView.vue
@@ -66,6 +68,9 @@ Nhlakanipho-Luthuli---Portfolio-Final/
 |- images/                    # Source image assets used in content
 |- package.json               # Scripts and dependency definitions
 |- vite.config.js             # Vite configuration
+|- server/chatHandler.js      # Server-side AI request and safety rules
+|- api/chat.js                # Vercel API route
+|- netlify/functions/chat.js  # Netlify API function
 ```
 
 ## Setup and Run
@@ -93,6 +98,14 @@ npm run build
 ```bash
 npm run preview
 ```
+
+## Portfolio Assistant
+
+Nhlaks AI answers common portfolio questions from the local profile data and sends other questions to a server-side API handler. The OpenAI key is never included in the browser bundle.
+
+For local AI replies, create a `.env` file in the project root and set `OPENAI_API_KEY` (optionally set `OPENAI_MODEL`; it defaults to `gpt-4o-mini`). Restart the dev server after changing environment variables. Keep `.env` private; it is ignored by Git. Without a key, the assistant's portfolio answers and quick actions still work, while open-ended AI requests show a setup message.
+
+For deployment, set `OPENAI_API_KEY` in the hosting provider's server-side environment variables. Vercel uses `api/chat.js`; Netlify uses its `/.netlify/functions/chat` function mapped to `/api/chat`.
 
 ## NPM Scripts
 

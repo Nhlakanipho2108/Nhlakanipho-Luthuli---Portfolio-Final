@@ -10,6 +10,9 @@ const certificates = [
   { image: '/images/Data science.PNG', alt: 'Weather App', title: 'Data Science Certificate', description: 'Completed the Introduction to Data Science certificate, gaining foundational skills in data analysis and interpretation.' },
   { image: '/images/risk', alt: 'Portfolio Website', title: 'Risk Assessment Certificate', description: 'Completed a Risk Assessment and Management certificate, focusing on identifying and controlling risks.' },
   { image: '/images/cybersecurity.PNG', alt: 'Task Manager App', title: 'Cyber Security Certificate', description: 'Completed an Introduction to Cyber Security certificate, gaining basic skills in protecting systems and understanding cyber threats.' },
+   { image: '/images/AWS1.JPG', alt: 'Task Manager App', title: 'AWS Certificate', description: 'Completed an Introduction to AWS certificate, gaining basic skills in cloud computing and understanding AWS services.' },
+   { image: '/images/AWS2.JPG', alt: 'Task Manager App', title: 'AWS Advanced Certificate', description: 'Completed an Advanced AWS certificate, gaining deeper skills in cloud computing and advanced AWS services.' },
+ { image: '/images/AWS3.JPG', alt: 'Task Manager App', title: 'AWS Expert Certificate', description: 'Completed an Expert AWS certificate, gaining advanced skills in cloud computing and expert-level AWS services.' },
 ]
 </script>
 <template><main class="page-content"><h1 class="section-title">Featured Certificates</h1><CardGrid :items="certificates" /></main></template>

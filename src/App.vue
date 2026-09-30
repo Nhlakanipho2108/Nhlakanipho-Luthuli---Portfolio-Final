@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import PortfolioAssistant from './components/PortfolioAssistant.vue'
 
 const links = [
   { label: 'Home', to: '/' }, { label: 'About', to: '/about' },
@@ -16,5 +17,6 @@ const links = [
     </nav>
   </header>
   <RouterView />
-  <footer class="footer"><p>2026 Nhlakanipho Luthuli | Built with HTML &amp; CSS</p></footer>
+  <footer class="footer"><p>2026 Nhlakanipho Luthuli | Built with HTML , CSS &amp; Vue.js</p></footer>
+  <PortfolioAssistant />
 </template>
