@@ -28,9 +28,9 @@ const certificates = [
   { image: '/images/Data science.PNG', alt: 'Introduction to Data Science certificate', title: 'Data Science Certificate', category: 'AI & Data', description: 'Completed the Introduction to Data Science certificate, gaining foundational skills in data analysis and interpretation.' },
   { image: '/images/risk', alt: 'Risk Assessment and Management certificate', title: 'Risk Assessment Certificate', category: 'Cybersecurity', description: 'Completed a Risk Assessment and Management certificate, focusing on identifying and controlling risks.' },
   { image: '/images/cybersecurity.PNG', alt: 'Introduction to Cyber Security certificate', title: 'Cyber Security Certificate', category: 'Cybersecurity', description: 'Completed an Introduction to Cyber Security certificate, gaining basic skills in protecting systems and understanding cyber threats.' },
-  { image: '/images/AWS1.JPG', alt: 'AWS introduction certificate', title: 'AWS Certificate', category: 'Cloud', description: 'Completed an Introduction to AWS certificate, gaining basic skills in cloud computing and understanding AWS services.' },
-  { image: '/images/AWS2.JPG', alt: 'AWS advanced certificate', title: 'AWS Advanced Certificate', category: 'Cloud', description: 'Completed an Advanced AWS certificate, gaining deeper skills in cloud computing and advanced AWS services.' },
-  { image: '/images/AWS3.JPG', alt: 'AWS expert certificate', title: 'AWS Expert Certificate', category: 'Cloud', description: 'Completed an Expert AWS certificate, gaining advanced skills in cloud computing and expert-level AWS services.' },
+  { image: '/images/AWS1.JPG', alt: 'AWS introduction certificate', title: 'Machine Learning & A.I Certificate', category: 'Cloud', description: 'Completed an Introduction to AWS certificate, gaining basic skills in cloud computing and understanding AWS services.' },
+  { image: '/images/AWS2.JPG', alt: 'AWS advanced certificate', title: 'Prompt Engineering Certificate', category: 'Cloud', description: 'Completed an Advanced AWS certificate, gaining deeper skills in cloud computing and advanced AWS services.' },
+  { image: '/images/AWS3.JPG', alt: 'AWS expert certificate', title: 'A.i Practices Certificate', category: 'Cloud', description: 'Completed an Expert AWS certificate, gaining advanced skills in cloud computing and expert-level AWS services.' },
 ]
 
 const visibleCertificates = computed(() => activeCategory.value === 'All'
